@@ -7,4 +7,15 @@ android平台的限制，制作出惊艳的应用。
 RxAndroid Scheduals来战胜Android中的多线程并发带来的困难。
 这本书都有什么
 第一章：Rx-从.Net到RxJava，初步进入响应式编程世界。我们将对比响应式编程和传统编程方法，了解他们的相同点和不同点。
-第二章：
+第二章：为什么要Observables。对观察者模式做一个大概的了解，并了解RxJava是怎么扩展它的。以及Observable是什么，它是怎么和Iterables联系
+起来的。
+第三章：用我们前面学的来做一个叫  Hello Reactive World的安卓应用。
+第四章：Filtering Observables，深入Observable序列的精华：filtering。我们来学习如何从正在发射内容的Observables中选择我们想要的值；如何
+获取有限的值，如何处理值数量过多的情况，以及另外一些技巧。
+第五章：Transforming Observables，展示如何按我们的需求来转换一个Observables序列。
+第六章：Combining Observables，挖掘多种组合方法。我们将学到如何处理我们需要的并且同事存在的多个Observables。
+第七章：Schedulers，解决android主线程导致的问题。向你展示如何用RxJava的调度器来处理多线程和并发编程问题。我们将用响应编程的思路创建
+网络访问，存储访问和耗时任务。
+第八章：REST in Pease-RxJava and Retrofit。将教会你如何通过squre公司的Retrofit和RxJava来创建一个既有效又高效的REST客户端。
+这本书为谁而写
+
